@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egorov_Agency_Test</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" href="img/favicon.png" sizes="25x25" type="image/png">
+</head>
+
+<body>
+
+    <!-- start header -->
+    <header class="header">
+        <img class="cloud1" src="img/cloud1.png" alt="cloud1">
+        <div class="container header_container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+        <img class="cloud2" src="img/cloud2.png" alt="cloud2">
+    </header>
+    <!-- end header -->
+
+    <main>
+
+        <!-- start section hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="content">
+                    <h1 class="list-reset">Under Construction</h3>
+                    <p>We're making lots of improvements and will be back soon</p>
+                    <div class="countdown">
+                        <div class="timer">
+                           <span id="days" class="timer__item timer__days"></span>
+                           <span id="colon">:</span>
+                           <span id="hours" class="timer__item timer__hours"></span>
+                           <span id="colon">:</span>
+                           <span id="minutes" class="timer__item timer__minutes"></span>
+                           <span id="colon">:</span>
+                           <span id="seconds" class="timer__item timer__seconds"></span>
+                        </div>
+                    </div>
+                </div>  
+                <p class="info">Check our event page when you wait:</p>
+                <a href="https://time-in.ru/time/belarus" class="btn">Go to the event</a>
+            </div>
+        </section>
+        <!-- end section hero -->
+
+    <!-- start section footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="form">
+                <form action="#" id="form" onsubmit="javascript:return validate('form','email');">
+                    <input id="email" type="text" name="email" placeholder="Enter your Email and get notified" />
+                    <input type="submit" value="" id="submit">
+                </form>
+            </div>
+            
+            <div class="overlay js-overlay-thank-you">
+                <div class="popup js-thank-you">
+                    <h2>SUCCESS!</h2>
+                    <p>You have successfully subscribed to the email newsletter</p>
+                    <button class="popup-btn js-close-thank-you">Close</button>
+                    <div class="close-popup js-close-thank-you"></div>
+                </div>
+            </div>
+
+            <div class="overlay js-overlay-error">
+                <div class="popup js-error">
+                    <h2 class="heading-error">ERROR!</h2>
+                    <p>Check the correctness of the entered email</p>
+                    <button class="popup-btn js-close-error">Close</button>
+                    <div class="close-popup js-close-error"></div>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
+    <!-- start section footer -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
